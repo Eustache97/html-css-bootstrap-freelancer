@@ -1,3 +1,8 @@
+.container_c{
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
 img{
     max-width: 100%;
 }
@@ -11,7 +16,6 @@ header{
 }
 .box{
     width: 100%;
-    line-height: 40px;
     /* debug */
     border: 1px solid black;
 }
@@ -21,6 +25,9 @@ a{
 }
 ul{
     list-style-type: none;
+}
+section{
+    padding: 2em 0;
 }
 section:nth-child(odd){
     background-color: var(--aqua);
