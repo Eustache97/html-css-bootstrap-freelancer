@@ -7,11 +7,13 @@ img{
     max-width: 100%;
 }
 :root {
---dark-blue: #020233;
+--dark-dark-blue: #020233;
 --aqua: #00ffff;
+--dark-blue: #1b1b65;
 }
-header{
-    background-color: var(--dark-blue);
+header,
+footer .footer-bottom{
+    background-color: var(--dark-dark-blue);
     color: var(--bs-white);
 }
 .box{
@@ -36,4 +38,9 @@ section:nth-child(odd){
 #jumbotron img{
     height: 100px;
     width: 100px;
+}
+footer{
+    background-color: var(--dark-blue);
+    color: var(--bs-white);
+    padding-top: 2em;
 }
