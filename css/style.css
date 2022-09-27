@@ -1,6 +1,20 @@
+:root {
+--dark-blue: #020233;
+}
+header{
+    background-color: var(--dark-blue);
+    color: var(--bs-white);
+}
 .box{
-    min-height: 40px;
     width: 100%;
+    line-height: 40px;
     /* debug */
     border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
 }
