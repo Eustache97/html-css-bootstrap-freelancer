@@ -1,3 +1,6 @@
+img{
+    max-width: 100%;
+}
 :root {
 --dark-blue: #020233;
 --aqua: #00ffff;
@@ -19,8 +22,9 @@ a{
 ul{
     list-style-type: none;
 }
-main :nth-child(odd){
+section:nth-child(odd){
     background-color: var(--aqua);
+    color: var(--bs-white);
 }
 #jumbotron img{
     height: 100px;
